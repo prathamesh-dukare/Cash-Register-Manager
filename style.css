@@ -1,0 +1,99 @@
+/* reset  */
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgb(159 117 197);
+    font-family: 'Merriweather', serif;
+}
+/* main css  */
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 15rem;
+    background-color: #410f76;
+    padding: 2em;
+    color: white;
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    margin-top: 0.5rem;
+    padding: 1rem 0; 
+    font-size: 19px;
+    margin: 0 5rem;
+}
+table{
+    height: 15vh;
+}
+tr,td,th{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    width: 0%;
+    padding: 3px;
+}
+label {
+    font-size: 21px;
+}
+input {
+    height: 2rem;
+    width: 100%;
+    font-size: 23px;
+    margin-top: 0.35rem;
+    padding: 0.3em 0em;
+    background-color: #e0d3e8;
+}
+div#button-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+button {
+    height: 2.5rem;
+    width: 15%;
+    color: #7908ea;
+    font-size: 23px;
+    border-radius: 6px;
+    margin: 0.1rem 1rem;
+}
+caption {
+    font-size: 24px;
+}
+
+/* Media Queries  */
+@media screen and (max-width:1050px) {
+    body{
+        background-color: #fff;
+    }
+    .container{
+        margin: 1rem 10rem;
+    }
+}
+@media screen and (max-width:850px) {
+    .container{
+        margin: 1rem 5rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .container{
+        margin: 1rem 2rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        margin: 1rem;
+    }
+    button {
+        height: 2rem;
+        width: 15%;
+        color: #7908ea;
+        font-size: 19px;
+        border-radius: 6px;
+        margin: 0.1rem 1rem;
+    }
+}

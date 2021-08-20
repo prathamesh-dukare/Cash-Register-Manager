@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Cash-Register</title>
+    <link rel="shortcut icon" href="/img/favicon.jpg" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Cash-Register Manager</h1>
+        <p class="text-center">Enter the bill amount & Cash given by customer and you'll get the exact number each notes
+            should be given to
+            customer.</p>
+        <form class="text-center">
+            <label for="bill-input" class="text-center">Bill Amount (₹)</label>
+            <input id="bill-input" type="number">
+            <label for="cash-input" class="text-center">Cash Given (₹)</label>
+            <input id="cash-input" type="number">
+            <div id="button-sec">
+
+                <button id="check-btn" type="button">Check</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <table>
+            <caption>Return Change</caption>
+            <tr>
+                <th>No.of Notes</th>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+                <td class="note-Count">0</td>
+            </tr>
+            <tr>
+                <th>Note (₹)</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>200</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
